@@ -1,4 +1,4 @@
-**LyricFind:**
+*LyricFind:*
 
 *Demo do app*
 
