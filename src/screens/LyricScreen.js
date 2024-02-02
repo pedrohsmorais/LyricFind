@@ -5,6 +5,8 @@ import { View, StyleSheet, Text, ScrollView, Alert, Switch } from 'react-native'
 
 const statusBarHeigth = StatusBar.currentHeigth ? StatusBar.currentHeigth : 40;
 
+const key = 'YOUR-KEY-FROM-VAGALUME'
+
 export default function LyricScreen({ route }) {
 
     const { autor, music } = route.params;
@@ -19,7 +21,7 @@ export default function LyricScreen({ route }) {
     useEffect(() => {
         async function getLyric() {
             try {
-                const response = await fetch(`http://api.vagalume.com.br/search.php?art=${autor}&mus=${music}`);
+                const response = await fetch(`http://api.vagalume.com.br/search.php?art=${autor}&mus=${music}&apikey={key}`);
                 const lyric = await response.json();
     
                 if (lyric.type !== 'exact') {
