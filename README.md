@@ -18,8 +18,6 @@ O aplicativo desenvolvido em React Native é uma plataforma de busca de letras d
 ---
 
 
-
-
 **2. Tela de Pesquisa (`SearchScreen`):**
 
 - *Descrição:*
@@ -32,10 +30,10 @@ O aplicativo desenvolvido em React Native é uma plataforma de busca de letras d
 
 ---
 
-**3. Tela de Letra (`LyricScreen`):**
+**3. Tela da Letra (`LyricScreen`):**
 
 - *Descrição:*
-  A tela de letra exibe a letra de uma música, possibilitando a tradução entre inglês e português.
+  A tela da letra exibe a letra de uma música, possibilitando a tradução entre inglês e português, caso exista tradução.
 
 - *Funcionalidade:*
   - Utiliza o `useState` para controlar o estado do componente.
