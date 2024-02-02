@@ -2,7 +2,7 @@
 
 *Demo do app*
 
-https://github.com/pedrohsmorais/LyricFind/assets/98822728/04ece6c4-6c40-43e7-a78e-8bfca86a6e23
+https://github.com/pedrohsmorais/LyricFind/assets/98822728/894f7dd2-5681-4302-87d6-aa7d64af91bf
 
 O aplicativo desenvolvido em React Native é uma plataforma de busca de letras de músicas que permite aos usuários pesquisar por autor e música. A estrutura do código está organizada em três partes principais:
 
